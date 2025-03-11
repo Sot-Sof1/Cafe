@@ -1,0 +1,92 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: rgb(220, 220, 220);
+    position: relative;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background: url(../img-cafeteria/header_inicio.jpg);
+    background-size: cover;  
+}
+
+header::before{
+    background-color: #000;
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    opacity: 0.7;
+}
+
+.seccion1{
+    display: flex;
+    align-items: center;
+    padding-right: 10vh;
+    position: relative;
+}
+
+.logo{
+    width: 25%;
+    height: 25vh;
+    padding: 30px;
+}
+
+.encabezado{
+    width: 80%;
+    height: 10vh;
+    display: flex;
+    justify-content: end;
+    gap: 15px;
+}
+
+a{
+    color: aliceblue;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.menu1{
+    color: chocolate;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a:hover{
+color: chocolate;
+}
+
+.div1{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+
+}
+
+.titulo1{
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+.seccion2{
+
+    width: 100%;
+    height: 500px;
+    background-color: aliceblue;
+    position: relative;
+    
+}
